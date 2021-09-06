@@ -10,7 +10,31 @@ object-fit: :cover;
 
 }
 
+.d-flex{
+
+  display:flex;
+
+}
+
+.color_white{
+
+color:white;
+
+}
+
+.circle_nav{
+
+  height:20px; width:20px; background-color: #9356dc; border-radius:50%;
+
+  position: relative;
+
+  left: -53px;
+  padding: 4%
+
+}
+
 .el_nav_menu{
+
 
 background-color:#f6f6f6; padding:2%; border-radius: 10%; text-align: center
 
