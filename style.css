@@ -15,11 +15,17 @@ object-fit: :cover;
 background-color:#f6f6f6; padding:2%; border-radius: 10%; text-align: center
 
 }
+
+.el_nav_menu:hover{
+
+background-color: #f5edff;
+}
+
 .input_search{
 background-color:#f6f6f6;
 border:none;
   padding-top:2%;
-  padding-bottom:2%; 
+  padding-bottom:2%;
 
   width:100%; text-align:center
 }
