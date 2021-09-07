@@ -10,6 +10,14 @@ object-fit: :cover;
 
 }
 
+.position_text_nav_menu{
+
+  position: relative;
+  left: -58px;
+  top: 18px;
+
+}
+
 .d-flex{
 
   display:flex;
@@ -67,6 +75,8 @@ border:none;
   display:flex; justify-content:space-around
 
 }
+
+
 
 .padding_top_4_pc{
 
