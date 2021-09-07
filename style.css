@@ -33,10 +33,18 @@ color:white;
 
 }
 
+.text_center{
+
+text-align: :center;
+
+
+}
+
 .el_nav_menu{
-
-
-background-color:#f6f6f6; padding:2%; border-radius: 10%; text-align: center
+background-color:#f6f6f6;
+height:85px;
+width: 370px;
+ border-radius: 10%;
 
 }
 
@@ -57,6 +65,23 @@ border:none;
 .menu_flex{
 
   display:flex; justify-content:space-around
+
+}
+
+.padding_top_4_pc{
+
+padding-top: 4%;
+
+}
+
+.justify_content_space_between{
+
+justify-content:space-between
+
+}
+.full_width{
+
+width: 100%;
 
 }
 
