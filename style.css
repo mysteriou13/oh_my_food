@@ -1,5 +1,6 @@
 body{
 
+
   background-color:#ffffff;
 
 }
@@ -8,6 +9,29 @@ img{
 
 object-fit: :cover;
 
+}
+
+footer{
+
+
+
+background-color: #353535ff;
+
+color:white;
+
+  display:flex;
+  justify-content:space-around;
+
+height: 100px;
+
+
+}
+
+.position_icone{
+
+  position: relative;
+  top: -4%;
+  left:41%;
 }
 
 .position_text_nav_menu{
@@ -36,7 +60,8 @@ color:white;
 
   position: relative;
 
-  left: -53px;
+  left: -14px;
+  top:10px;
   padding: 4%
 
 }
