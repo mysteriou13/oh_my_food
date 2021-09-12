@@ -3,6 +3,8 @@ $backcolor:#ffffff;
 
 $backfooter:#353535ff;
 
+$grey: #f6f6f6;
+
 body{
 
 
@@ -31,6 +33,14 @@ height: 100px;
 
 
 }
+
+.div_button{
+
+background-color:$grey;
+height: 80px;
+
+}
+
 
 .position_icone{
 

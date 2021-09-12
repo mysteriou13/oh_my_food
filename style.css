@@ -11,6 +11,10 @@ footer {
   justify-content: space-around;
   height: 100px; }
 
+.div_button {
+  background-color: #f6f6f6;
+  height: 80px; }
+
 .position_icone {
   position: relative;
   top: -4%;
