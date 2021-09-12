@@ -5,6 +5,12 @@ $backfooter:#353535ff;
 
 $grey: #f6f6f6;
 
+$border_radius:23px;
+
+$pink:#FF79DA;
+
+$purple:#9356DC;
+
 body{
 
 
@@ -32,6 +38,25 @@ color:white;
 height: 100px;
 
 
+}
+
+.button_explore{
+
+  position: relative;
+  top: 18%;
+  left:50%;
+  height: 57px;
+  padding: 1%;
+
+ border-top-left-radius: $border_radius;
+ border-bottom-left-radius: $border_radius;
+
+ border-bottom-right-radius: $border_radius;
+ border-top-right-radius: $border_radius;
+ color:white;
+ font-size: 1.2em;
+
+  background: linear-gradient(to bottom right, $pink,$purple);
 }
 
 .div_button{

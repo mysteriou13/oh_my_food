@@ -11,6 +11,20 @@ footer {
   justify-content: space-around;
   height: 100px; }
 
+.button_explore {
+  position: relative;
+  top: 18%;
+  left: 50%;
+  height: 57px;
+  padding: 1%;
+  border-top-left-radius: 23px;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  border-top-right-radius: 23px;
+  color: white;
+  font-size: 1.2em;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC); }
+
 .div_button {
   background-color: #f6f6f6;
   height: 80px; }
