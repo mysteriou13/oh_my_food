@@ -50,6 +50,7 @@ footer {
   left: 50%;
   height: 57px;
   padding: 1%;
+  border: none;
   border-top-left-radius: 23px;
   border-bottom-left-radius: 23px;
   border-bottom-right-radius: 23px;
