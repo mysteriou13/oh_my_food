@@ -59,40 +59,32 @@ height: 100px;
   width: 5%;
 }
 
-.heart_left {
-
-position:relative;
-  background-color: $purple;
-  height: 52%;
-  width: 82%;
-  border-radius: 50%;
+.fa-heart {
 
 
-}
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
 
-.heart_right{
-position:relative;
+  color:white;
 
-  background-color: $purple;
-  height: 55%;
-  width: 82%;
-  border-radius: 50%;
+  -webkit-transition: color 2s ease-out;
+  -moz-transition: color 2s ease-out;
+  -o-transition: color 2s ease-out;
+  transition: color 2s ease-out;
 
 
 }
 
-.carre{
+.fa-heart:hover {
 
-  position: relative;
-  right: -21%;
-  top: -70%;
-  background-color: $purple;
-  height: 47%;
-  width: 53%;
-  transform: rotate(43deg);
+  background:-webkit-linear-gradient(top, $purple 30%, $pink 70%);
+      background-clip:text;
+      -webkit-background-clip:text;
+      color:transparent;
 
-
+  cursor: pointer;
 }
+
 
 
 .button_explore{
