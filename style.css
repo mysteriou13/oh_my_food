@@ -76,7 +76,7 @@ footer {
 .circle_nav {
   height: 20px;
   width: 20px;
-  background-color: #9356dc;
+  background-color: #9356DC;
   border-radius: 50%;
   position: relative;
   left: -14px;
@@ -131,7 +131,7 @@ footer {
 .box_image {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  background-color: #f3f3f3;
+  background-color: #f6f6f6;
   background-color: white;
   height: 99%;
   width: 45%;

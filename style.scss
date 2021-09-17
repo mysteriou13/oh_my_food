@@ -11,6 +11,8 @@ $pink:#FF79DA;
 
 $purple:#9356DC;
 
+$purle_light:#f5edff;
+
 $green:#99E2D0;
 
 
@@ -145,7 +147,7 @@ color:white;
 
 .circle_nav{
 
-  height:20px; width:20px; background-color: #9356dc; border-radius:50%;
+  height:20px; width:20px; background-color: $purple; border-radius:50%;
 
   position: relative;
 
@@ -163,7 +165,7 @@ text-align:center;
 }
 
 .el_nav_menu{
-background-color:#f6f6f6;
+background-color:$grey;
 height:85px;
 width: 370px;
  border-radius: 10%;
@@ -176,7 +178,7 @@ background-color: #f5edff;
 }
 
 .input_search{
-background-color:#f6f6f6;
+background-color:$grey;
 border:none;
   padding-top:2%;
   padding-bottom:2%;
@@ -223,7 +225,7 @@ height:800px;
 }
 
 .flex_box_image{
-background-color:#f6f6f6;
+background-color:$grey;
   display:flex;  height:45%; margin-bottom:1%;
 
 }
@@ -233,7 +235,7 @@ background-color:#f6f6f6;
 
   border-bottom-right-radius: 30px;
 
-  background-color:#f3f3f3;
+  background-color:$grey;
 background-color:white; height:99%;
   width: 45%;  margin-left: 3%; margin-right: 3%;
 
