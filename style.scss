@@ -40,6 +40,8 @@ height:$size;
 
 }
 
+
+
 body{
 
 
@@ -70,7 +72,11 @@ height: 100px;
 }
 
 
+.box_restaurant{
 
+@include height_size(800px);
+
+}
 
 
 .full_taille{
