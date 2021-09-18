@@ -28,6 +28,11 @@ display:$display;
 
 }
 
+@mixin paddingtop($val){
+
+padding-top: $val;
+
+}
 
 body{
 
@@ -243,7 +248,22 @@ height:800px;
 
 }
 
+.box_menu{
+
+  @include flex_box(flex);
+
+   @include width_size(100%);
+
+@include paddingtop(1pc);
+
+
+    justify-content: space-between;
+
+}
+
+
 .flex_box_image{
+
 background-color:$grey;
   @include flex_box(flex);  height:45%; margin-bottom:1%;
 
@@ -259,6 +279,8 @@ background-color:white; height:99%;
   width: 45%;  margin-left: 3%; margin-right: 3%;
 
 }
+
+
 
 .taille_image{
 

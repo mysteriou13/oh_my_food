@@ -119,6 +119,12 @@ footer {
 .height_800px {
   height: 800px; }
 
+.box_menu {
+  display: flex;
+  width: 100%;
+  padding-top: 1pc;
+  justify-content: space-between; }
+
 .flex_box_image {
   background-color: #f6f6f6;
   display: flex;
