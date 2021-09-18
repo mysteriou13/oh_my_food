@@ -195,7 +195,9 @@ border:none;
   padding-top:2%;
   padding-bottom:2%;
 
-  width:100%; text-align:center
+@include width_size(100%);
+
+   text-align:center
 }
 
 .menu_flex{
