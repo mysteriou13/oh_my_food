@@ -52,6 +52,13 @@ width: $size;
 
 }
 
+@mixin div($display){
+
+display:$display;
+
+}
+
+
 .full_taille{
 
   @include width_size(100%);
