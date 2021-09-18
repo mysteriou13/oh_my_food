@@ -195,6 +195,8 @@ height:85px;
 
 @include width_size(370px);
 
+ @include flex_box(flex);
+
  border-radius: 10%;
 
 }

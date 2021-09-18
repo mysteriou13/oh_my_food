@@ -90,6 +90,7 @@ footer {
   background-color: #f6f6f6;
   height: 85px;
   width: 370px;
+  display: flex;
   border-radius: 10%; }
 
 .el_nav_menu:hover {
