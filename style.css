@@ -11,6 +11,10 @@ footer {
   justify-content: space-around;
   height: 100px; }
 
+.box_restaurant_text {
+  display: flex;
+  justify-content: space-between; }
+
 .box_restaurant {
   height: 800px; }
 
