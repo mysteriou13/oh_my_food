@@ -1,0 +1,22 @@
+{
+  "name": "oh_my_food",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mysteriou13/oh_my_food.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mysteriou13/oh_my_food/issues"
+  },
+  "homepage": "https://github.com/mysteriou13/oh_my_food#readme",
+  "dependencies": {
+    "prefix": "^1.0.0"
+  }
+}
