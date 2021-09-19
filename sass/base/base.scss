@@ -1,0 +1,42 @@
+body{
+
+
+  background-color:$backcolor;
+
+}
+
+img{
+
+object-fit:cover;
+
+}
+
+footer{
+
+
+background-color: $backfooter;
+
+color:white;
+
+  @include flex_box(flex);
+
+  justify-content:space-around;
+
+height: 100px;
+
+
+}
+
+.full_taille{
+
+  @include width_size(100%);
+
+  height:100%;
+
+}
+
+.full_width{
+
+@include width_size(100%);
+
+}

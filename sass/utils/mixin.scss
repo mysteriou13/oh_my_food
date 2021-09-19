@@ -1,0 +1,25 @@
+
+@mixin width_size($size){
+
+
+width: $size;
+
+}
+
+@mixin flex_box($display){
+
+display:$display;
+
+}
+
+@mixin paddingtop($val){
+
+padding-top: $val;
+
+}
+
+@mixin height_size($size){
+
+height:$size;
+
+}

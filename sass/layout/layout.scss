@@ -1,0 +1,36 @@
+.box_restaurant_text{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.box_restaurant{
+
+@include height_size(800px);
+
+}
+
+
+
+.div_button{
+
+background-color:$grey;
+height: 80px;
+
+}
+
+
+.box_menu{
+
+  @include flex_box(flex);
+
+   @include width_size(100%);
+
+@include paddingtop(1pc);
+
+
+    justify-content: space-between;
+
+}
